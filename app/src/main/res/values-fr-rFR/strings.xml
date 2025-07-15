@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CoursAppKotlin</string>
+    <string name="welcome_to_kourse_kotlinapp">Bienvenue sur Kourse KotlinApp</string>
+    <string name="lectures_videos">Conférences Vidéos</string>
+    <string name="lectures_photo">Conférences Photo</string>
+    <string name="lectures_note">Notes de cours</string>
+    <string name="project_youtube">ProjetDe Youtube</string>
+    <string name="projects_github">Projet de Github</string>
+    <string name="kourse_from_maadCoding">Cours de MaadCoding</string>
+    <string name="development_adelAiad">Développement AdelAiad</string>
+</resources>

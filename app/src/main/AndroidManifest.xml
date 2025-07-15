@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KourseAppKotlin"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".youtubeprojects.NewsApp"
+            android:exported="false" />
+        <activity
+            android:name=".YoutubeVideo"
+            android:exported="false" />
+        <activity
+            android:name=".youtubeprojects.TipTimeApp"
+            android:exported="false" />
+        <activity
+            android:name=".youtubeprojects.EmergenceApp"
+            android:exported="false" />
+        <activity
+            android:name=".youtubeprojects.DiceRoller"
+            android:exported="false" />
+        <activity
+            android:name=".LecturesNote"
+            android:exported="false" />
+        <activity
+            android:name=".Lecture2Videos"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture41"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture40"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture39"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture38"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture37"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture35_36"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture33_34"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture32"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture31"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture29_30"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture27_28"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture24_25_26"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture23"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture22"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture21"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture19_20"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture18"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture17"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture16"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture15"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture14"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture13"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture11_12"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture10"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture9"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture8"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture7"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture6"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture5"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture4"
+            android:exported="false" />
+        <activity
+            android:name=".lectures.Lecture3"
+            android:exported="false" />
+        <activity
+            android:name=".ShowImages"
+            android:exported="false" />
+        <activity
+            android:name=".Lectures2"
+            android:exported="false" />
+        <activity
+            android:name=".Note"
+            android:exported="false" />
+        <activity
+            android:name=".Photos"
+            android:exported="false" />
+        <activity
+            android:name=".Videos"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="androidx.media3.session.MediaSessionService" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

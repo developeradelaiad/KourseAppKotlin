@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KourseAppKotlin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="backgroundColor">#838282</item>
+    </style>
+
+    <style name="Theme.KourseAppKotlin" parent="Base.Theme.KourseAppKotlin" />
+</resources>

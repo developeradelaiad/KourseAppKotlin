@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KourseAppKotlin</string>
+    <string name="welcome_to_kourse_kotlinapp">Welcome To Kourse KotlinApp</string>
+    <string name="lectures_videos">Lectures Videos</string>
+    <string name="lectures_photo">Lectures Photo</string>
+    <string name="lectures_note">Lectures Note</string>
+    <string name="project_youtube">ProjectFrom Youtube</string>
+    <string name="projects_github">Project From Github</string>
+    <string name="kourse_from_maadCoding">Kourse From MaadCoding</string>
+    <string name="development_adelAiad">Development AdelAiad</string>
+
+    <string-array name="lang">
+        <item> Select Language </item>
+        <item>English</item>
+        <item>Arabic</item>
+        <item>French</item>
+    </string-array>
+</resources>

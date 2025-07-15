@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ابليكيشن كورس كوتلن</string>
+    <string name="welcome_to_kourse_kotlinapp"> مرحبا بك فى ابليكيشن كورس كوتلن </string>
+    <string name="lectures_videos">فيديوهات</string>
+    <string name="lectures_photo">صور</string>
+    <string name="lectures_note">ملاحظات</string>
+    <string name="project_youtube">بروجيكت من اليوتيوب</string>
+    <string name="projects_github">بروجيكت من جيت هاب</string>
+    <string name="kourse_from_maadCoding">الكورس من  MaadCoding</string>
+    <string name="development_adelAiad">برمجه AdelAiad</string>
+
+</resources>
